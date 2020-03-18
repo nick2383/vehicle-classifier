@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1L-DuhcOoVtd7wNeTljHxjE-5ky1YlUnL'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1L1ZjqLiwwSgflxWe165Z-w5Yg83BBzNV'
 export_file_name = 'vehicles-model-2.pkl'
 
 classes = ['passenger','forestry-other','passenger-dark' 'empty-dark', 'log-truck-loaded', 'log-truck-empty', 'log-truck-dark', 'empty', 'industrial-commercial' ]
