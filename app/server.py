@@ -4,12 +4,14 @@ from starlette.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
 import uvicorn, aiohttp, asyncio
 from io import BytesIO
+import csv
+import StringIO
 
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1L1ZjqLiwwSgflxWe165Z-w5Yg83BBzNV'
-export_file_name = 'vehicles-model-2.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1fAtchlQUbPRYyjl2e5u2iWTt9OfufWpo'
+export_file_name = 'export.pkl'
 
 classes = ['passenger','forestry-other','passenger-dark' 'empty-dark', 'log-truck-loaded', 'log-truck-empty', 'log-truck-dark', 'empty', 'industrial-commercial' ]
 path = Path(__file__).parent
