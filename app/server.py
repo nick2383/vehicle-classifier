@@ -4,8 +4,6 @@ from starlette.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
 import uvicorn, aiohttp, asyncio
 from io import BytesIO
-import csv
-import StringIO
 
 from fastai import *
 from fastai.vision import *
